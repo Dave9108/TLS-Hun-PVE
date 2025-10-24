@@ -1,0 +1,159 @@
+<!-- - - - - - - - - - -
+##########################
+## Server Panel Deluxe ###
+### 7 Days to Die Mod ####
+##########################
+###### NO REUPLOAD! ######
+###### USE NEXUS OR ######
+###### MODSFIRE  DL ######
+####### TO SUPPORT #######
+###### THIS PROJECT ######
+##########################
+####### Eihwaz © #########
+##### www.eihwaz.de ######
+##########################
+- - - - - - - - - - - -->
+<eihwaz.de> 
+	<append xpath="/windows"> 
+		<window name="windowSPD" depth="10" width="768" height="250" anchor="CenterCenter" cursor_area="true" > 
+			<panel name="core" depth="10" pos="-387,425" disableautobackground="true"> 
+				<rect name="header"> 
+					<label name="headerTitle" depth="10" pos="0,-22" justify="center" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1" font_size="48" text_key="spd_headerTitle"/> 
+					<label name="headerMotto" depth="10" pos="0,-68" justify="center" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1" font_size="28" text_key="spd_headerMotto"/> 
+					<sprite name="headerBorder" depth="3" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> <sprite name="headerBackground" color="20,18,18" type="sliced" globalopacitymod="1.2" /> 
+				</rect> 	
+	
+				<rect name="readAll" width="768" height="90" pos="0,-175"> 
+					<label name="readAllText" depth="10" pos="0,-12" justify="center" text_key="spd_readAll"/> 
+					<sprite name="readAllBorder" depth="9" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="readAllBackground" depth="9" color="[black]" type="sliced" globalopacity="true" /> 
+				</rect> 
+		
+				<rect name="tabs" depth="20" controller="TabSelector"> 
+					<label name="main" depth="10" pos="1450,-1000" font_size="28" style="hover" text_key=" " tooltip="www.eihwaz.de"/> 
+				<rect name="tabsHeader"> 
+					<simplebutton name="buttonDisable" width="36" height="36" pos="735,-2" defaultcolor="0,0,0,1" selectedcolor="0,0,0,1" hovercolor="0,0,0,1" hoversprite="" bordercolor="[transparent]" selectedsprite=""/> 
+				<rect name="button1" pos="1,-121"> 
+					<simplebutton name="button2" width="155" height="55" defaultcolor="[darkGrey]" bordercolor="[black_half_alpha]" sprite="menu_empty3px"/> 
+					<sprite name="buttonIcon2" pos="77,-28" size="36,36" sprite="ui_game_symbol_book" depth="21" pivot="center" color="[white]" style="icon32px"/> 
+					</rect> 
+
+				<rect name="button2" pos="154,-121"> 
+				<simplebutton name="button3" width="155" height="55" defaultcolor="[darkGrey]" bordercolor="[black_half_alpha]" sprite="menu_empty3px"/> 
+				<sprite name="buttonIcon3" pos="77,-28" size="36,36" sprite="ui_game_symbol_book" depth="21" pivot="center" color="[white]" style="icon32px"/> 
+			</rect> 
+
+				<rect name="button3" pos="307,-121"> 
+					<simplebutton name="button4" width="155" height="55" defaultcolor="[darkGrey]" bordercolor="[black_half_alpha]" sprite="menu_empty3px"/> 
+					<sprite name="buttonIcon4" pos="77,-28" size="36,36" sprite="ui_game_symbol_lightbulb" depth="21" pivot="center" color="[white]" style="icon32px"/> 
+				</rect> 
+
+				<rect name="button4" pos="460,-121"> 
+					<simplebutton name="button5" width="155" height="55" defaultcolor="[darkGrey]" bordercolor="[black_half_alpha]" sprite="menu_empty3px"/> 
+					<sprite name="buttonIcon5" pos="77,-28" size="36,36" sprite="ui_game_symbol_quest" depth="21" pivot="center" color="[white]" style="icon32px"/> 
+				</rect> 
+
+				<rect name="button5" pos="613,-121"> 
+					<simplebutton name="button6" width="155" height="55" defaultcolor="[darkGrey]" bordercolor="[black_half_alpha]" sprite="menu_empty3px"/> 
+					<sprite name="buttonIcon6" pos="77,-28" size="36,36" sprite="ui_game_symbol_players" depth="21" pivot="center" color="[white]" style="icon32px"/> 
+				</rect> 
+
+				</rect>  
+				<rect name="tabsContents" width="0" height="0"> <rect name="contentDisabled" tab_key="X" tooltip_key="spd_Close">
+				</rect> 
+				<rect name="content1" tab_key="" pos="0,-175" tooltip_key="spd_Button1"> 
+					<sprite name="borderContent" depth="10" sprite="menu_empty3px" pos="0,0" width="768" height="717" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="backgroundContent" depth="10" color="20,18,18" type="sliced" width="768" height="717" globalopacity="true" globalopacitymod="1.8" /> 
+				<rect name="headerContent" width="768" height="50"> <sprite name="border" depth="11" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="background" depth="11" color="[black]" type="sliced" globalopacity="false" /> 
+					<label depth="15" pos="0,-12" justify="center" text_key="spd_ButtonTitle1" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+					<label depth="13" pos="12,-62" text_key="spd_TabContent1" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+
+				<rect name="content2" tab_key="" pos="0,-175" tooltip_key="spd_Button2"> 
+					<sprite name="borderContent" depth="10" sprite="menu_empty3px" pos="0,0" width="768" height="717" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="backgroundContent" depth="10" color="20,18,18" type="sliced" width="768" height="717" globalopacity="true" globalopacitymod="1.8" /> 
+				<rect name="headerContent" width="768" height="50"> <sprite name="border" depth="11" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="background" depth="11" color="[black]" type="sliced" globalopacity="false" /> <label depth="15" pos="0,-12" justify="center" text_key="spd_ButtonTitle2" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+					<label depth="13" pos="12,-62" text_key="spd_TabContent2" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+
+				<rect name="content3" tab_key="" pos="0,-175" tooltip_key="spd_Button3"> 
+					<sprite name="borderContent" depth="10" sprite="menu_empty3px" pos="0,0" width="768" height="717" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="backgroundContent" depth="10" color="20,18,18" type="sliced" width="768" height="717" globalopacity="true" globalopacitymod="1.8" /> 
+				<rect name="headerContent" width="768" height="50"> 
+					<sprite name="border" depth="11" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="background" depth="11" color="[black]" type="sliced" globalopacity="false" /> 
+					<label depth="15" pos="0,-12" justify="center" text_key="spd_ButtonTitle3" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+			
+					<label depth="13" pos="12,-62" text_key="spd_TabContent3" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+
+				<rect name="content4" tab_key="" pos="0,-175" tooltip_key="spd_Button4"> 
+					<sprite name="borderContent" depth="10" sprite="menu_empty3px" pos="-100,0" width="768" height="717" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="backgroundContent" depth="10" color="20,18,18" pos="-100,0" type="sliced" width="970" height="717" globalopacity="true" globalopacitymod="1.8" /> 
+				<rect name="headerContent" width="768" height="50">
+					<sprite name="border" depth="11" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="background" depth="11" color="[black]" type="sliced" globalopacity="false" /> 
+					<label depth="15" pos="0,-12" justify="center" text_key="spd_ButtonTitle4" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+
+					<label depth="13" pos="-72,-62" text_key="spd_TabContent4" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+					<label depth="13" pos="425,-62" text_key="spd_TabContent6" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/>
+				</rect> 
+
+				<rect name="content5" tab_key="" pos="0,-175" tooltip_key="spd_Button5"> 
+					<sprite name="borderContent" depth="10" sprite="menu_empty3px" pos="0,0" width="768" height="717" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="backgroundContent" depth="10" color="20,18,18" type="sliced" width="768" height="717" globalopacity="true" globalopacitymod="1.8" /> 
+				<rect name="headerContent" width="768" height="50"> 
+					<sprite name="border" depth="11" sprite="menu_empty2px" color="[black]" type="sliced" fillcenter="false" /> 
+					<sprite name="background" depth="11" color="[black]" type="sliced" globalopacity="false" /> 
+					<label depth="15" pos="0,-12" justify="center" text_key="spd_ButtonTitle5" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+
+					<label depth="13" pos="12,-62" text_key="spd_TabContent5" parse_actions="true" width="743" height="643" effect="Outline8" effect_color="0,0,0,255" effect_distance="1,1"/> 
+				</rect> 
+				</rect> 
+				</rect> 
+
+				<!--rect depth="50" name="links" width="36" height="36" pos="20,-18"> 
+				<rect name="link1" pos="1,0" pivot="center"> 
+					<texture depth="50" pivot="center" height="30" width="30" texture="@https://github.com/ANG3L-theBoss/AntarktiszPVE/blob/main/spd_discord.png?raw=true"/> 
+				<rect controller="NewsWindow" sources="https://gist.githubusercontent.com/ANG3L-theBoss/cbc6ba974547e54e4d55a21703268c1e/raw/e33412d31fe580bdba018114f4ee15e8912df378/dcurl.xlm"> 
+					<button depth="49" name="btnLink" pos="-18,16" height="36" width="36" hoverscale="1" defaultcolor="0,0,0,1" disabledcolor="0,0,0,1" hovercolor="0,0,0,1" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" tooltip_key="spd_link1"/> 
+				</rect> 
+				</rect> 
+
+				<rect name="link2" pos="39,0" pivot="center"> 
+					<texture depth="50" pivot="center" height="30" width="30" texture="@https://github.com/ANG3L-theBoss/AntarktiszPVE/blob/main/web.png?raw=true"/> 
+				<rect controller="NewsWindow" sources="https://gist.githubusercontent.com/ANG3L-theBoss/a56d9c441fae6a85ae8e731bd695a40b/raw/66e6e299362dca912bfc717f63fee23a665fe2c1/weburl.xml"> 
+					<button depth="49" name="btnLink" pos="-18,16" height="36" width="36" hoverscale="1" defaultcolor="0,0,0,1" disabledcolor="0,0,0,1" hovercolor="0,0,0,1" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" tooltip_key="spd_link2"/> 
+				</rect> 
+				</rect> 
+
+				<rect name="link3" pos="76,0" pivot="center"> 
+					<texture depth="50" pivot="center" height="30" width="30" texture="@https://github.com/ANG3L-theBoss/AntarktiszPVE/blob/main/shop.png?raw=true"/> 
+				<rect controller="NewsWindow" sources="https://gist.githubusercontent.com/ANG3L-theBoss/578c7508fb0c87e3243b716266359711/raw/93ca5a2f5f9c221cb36ae1969b935f23d08cce31/shopurl.xlm"> 
+					<button depth="49" name="btnLink" pos="-18,16" height="36" width="36" hoverscale="1" defaultcolor="0,0,0,1" disabledcolor="0,0,0,1" hovercolor="0,0,0,1" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" tooltip_key="spd_link3"/> 
+				</rect> 
+				</rect> 
+				<rect name="link4" pos="113,0" pivot="center"> 
+					<texture depth="50" pivot="center" height="30" width="30" texture="@https://github.com/ANG3L-theBoss/AntarktiszPVE/blob/main/vote.png?raw=true"/> 
+				<rect controller="NewsWindow" sources="https://gist.githubusercontent.com/ANG3L-theBoss/a88be3871d0cae8516c3c915a1662fb2/raw/25c6beeef713e8d24ee899c5c2e1a5742f495a80/voteurl.xml"> 
+					<button depth="49" name="btnLink" pos="-18,16" height="36" width="36" hoverscale="1" defaultcolor="0,0,0,1" disabledcolor="0,0,0,1" hovercolor="0,0,0,1" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" tooltip_key="spd_link4"/> 
+				</rect> 
+				</rect>
+				<rect name="link5" pos="150,0" pivot="center"> 
+					<texture depth="50" pivot="center" height="30" width="30" texture="@https://github.com/ANG3L-theBoss/AntarktiszPVE/blob/main/facebook-logo.png?raw=true"/> 
+				<rect controller="NewsWindow" sources="https://gist.githubusercontent.com/ANG3L-theBoss/40925baa61433c36ff73414efc3d25ee/raw/69160dbc54ff2399656a4d0ba7c5cd8f50ca367d/fburl.xml"> 
+					<button depth="49" name="btnLink" pos="-18,16" height="36" width="36" hoverscale="1" defaultcolor="0,0,0,1" disabledcolor="0,0,0,1" hovercolor="0,0,0,1" type="sliced" enabled="{has_link}" gamepad_selectable="{has_news}" tooltip_key="spd_link5"/> 
+				</rect> 
+				</rect>
+				</rect--> 
+			</panel> 
+		</window> 
+	</append> 
+</eihwaz.de>

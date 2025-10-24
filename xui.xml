@@ -1,0 +1,16 @@
+<!-- - - - - - - - - - -
+##########################
+## Server Panel Deluxe ###
+### 7 Days to Die Mod ####
+##########################
+###### NO REUPLOAD! ######
+###### USE NEXUS OR ######
+###### MODSFIRE  DL ######
+####### TO SUPPORT #######
+###### THIS PROJECT ######
+##########################
+####### Eihwaz © #########
+##### www.eihwaz.de ######
+##########################
+- - - - - - - - - - - -->
+<eihwaz.de><append xpath="/xui/ruleset"><window_group name="serverinfowindow"><window name="windowSPD"/></window_group></append></eihwaz.de>
